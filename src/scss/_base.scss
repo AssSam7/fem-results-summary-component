@@ -1,0 +1,17 @@
+@import url("https://fonts.google.com/specimen/Hanken+Grotesk");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%; /* Making 1px=10px from the base 16px */
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+}

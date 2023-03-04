@@ -1,0 +1,22 @@
+/*** Colors ***/
+
+/* Primary Tints */
+$color-primary-light-red: hsl(0, 100%, 67%);
+$color-primary-orange-yellow: hsl(39, 100%, 56%);
+$color-primary-green-teal: hsl(166, 100%, 37%);
+$color-primary-cobalt-blue: hsl(234, 85%, 45%);
+/* Gradient Tints */
+$color-bg-light-slate-blue: hsl(252, 100%, 67%);
+$color-bg-light-royal-blue: hsl(241, 81%, 54%);
+$color-circle-violet-blue: hsla(256, 72%, 46%, 1);
+$color-circle-persian-blue: hsla(241, 72%, 46%, 0);
+/* Neutral Tints */
+$color-white: hsl(0, 0%, 100%);
+$color-pale-blue: hsl(221, 100%, 96%);
+$color-light-lavender: hsl(241, 100%, 89%);
+$color-dark-gray-blue: hsl(224, 30%, 27%);
+
+/*** Responsive Breakpoints ***/
+
+$bp-mobile: 375px;
+$bp-desktop: 1440px;
