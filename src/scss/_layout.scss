@@ -1,7 +1,30 @@
 .card {
-  width: 55vw;
+  width: 51.3vw;
   height: 512px;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 32px;
   box-shadow: 0 30px 60px 0 hsla(224, 82, 58, 0.15);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &_result {
+    height: 100%;
+    border-radius: 32px;
+    background: linear-gradient(
+      180deg,
+      $color-bg-light-slate-blue-1 0%,
+      $color-bg-light-slate-blue-2 0.01%,
+      $color-bg-light-royal-blue 100%
+    );
+  }
+
+  &_summary {
+    height: 100%;
+  }
 }
