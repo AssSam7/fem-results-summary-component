@@ -16,3 +16,7 @@ User Features:
 ## Solution Approach
 
 As this is a straightforward component, I have chosen to stick without using any library/framework approach with pure CSS, and Javascript. Although, I have used the CSS pre-processor SCSS for the styling of the application.
+
+## Live URL 🚀
+
+https://super-stroopwafel-b33fc2.netlify.app/
