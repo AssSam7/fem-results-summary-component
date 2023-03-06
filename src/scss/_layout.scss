@@ -115,17 +115,28 @@
     }
 
     &__btn {
+      cursor: pointer;
       width: 100%;
       border-radius: 32px;
       text-align: center;
       padding: 16px 0;
-      background-color: $color-dark-gray-blue;
+      background: $color-dark-gray-blue;
       border: 0;
       outline: none;
       font-weight: 700;
       font-size: 1.8rem;
       line-height: 23px;
       color: $color-white;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background: linear-gradient(
+          180deg,
+          $color-bg-light-slate-blue-1 0%,
+          $color-bg-light-slate-blue-2 0.01%,
+          $color-bg-light-royal-blue 100%
+        );
+      }
     }
   }
 }
@@ -136,7 +147,7 @@
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 12px;
-  background: darken($color: #fff, $amount: 10);
+  background: $color-primary-bg-light-red;
   border-radius: 12px;
 
   .icon {
@@ -152,6 +163,7 @@
   .score_wrapper {
     display: flex;
     gap: 8px;
+    align-items: center;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
@@ -160,6 +172,10 @@
     .divider,
     .out_of {
       opacity: 0.5;
+    }
+
+    .divider {
+      margin-top: 2px;
     }
   }
 }

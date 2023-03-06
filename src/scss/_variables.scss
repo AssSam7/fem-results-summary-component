@@ -2,9 +2,13 @@
 
 /* Primary Tints */
 $color-primary-light-red: hsl(0, 100%, 67%);
+$color-primary-bg-light-red: hsla(0, 100%, 67%, 0.05);
 $color-primary-orange-yellow: hsl(39, 100%, 56%);
+$color-primary-bg-orange-yellow: hsla(39, 100%, 56%, 0.05);
 $color-primary-green-teal: hsl(166, 100%, 37%);
+$color-primary-bg-green-teal: hsla(166, 100%, 37%, 0.05);
 $color-primary-cobalt-blue: hsl(234, 85%, 45%);
+$color-primary-bg-cobalt-blue: hsla(234, 85%, 45%, 0.05);
 /* Gradient Tints */
 $color-bg-light-slate-blue-1: hsl(252, 100%, 67%);
 $color-bg-light-slate-blue-2: hsl(252, 100%, 63%);
