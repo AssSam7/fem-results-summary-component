@@ -9,6 +9,10 @@
 html {
   box-sizing: inherit;
   font-size: 62.5%; /* Making 1px=10px from the base 16px */
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 50%;
+  }
 }
 
 body {

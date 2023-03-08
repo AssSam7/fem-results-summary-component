@@ -13,6 +13,19 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
+  @media screen and (max-width: $bp-mobile) {
+    width: 100vw;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(-0%, -0%);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.75fr 1fr;
+  }
+
   &_result {
     padding: 3.6rem;
     border-radius: 3.2rem;
@@ -27,6 +40,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: $bp-mobile) {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      gap: 24px;
+    }
 
     &__label {
       font-weight: 700;
@@ -100,6 +119,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media screen and (max-width: $bp-mobile) {
+      gap: 24px;
+    }
 
     &__title {
       font-weight: 700;
