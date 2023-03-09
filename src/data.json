@@ -10,7 +10,7 @@
     "category": "Memory",
     "score": 92,
     "icon": "./assets/images/icon-memory.svg",
-    "color": "color: hsl(39, 100%, 56%)",
+    "color": "hsl(39, 100%, 56%)",
     "bgColor": "hsla(39, 100%, 56%, 0.05)"
   },
   {
