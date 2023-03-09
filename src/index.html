@@ -16,36 +16,31 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <div class="card">
-      <div class="card_result" role="presentation">
-        <h2 class="card_result__label">Your Result</h2>
-        <div class="card_result__result_circle">
-          <h1 class="total" id="total_result">76</h1>
-          <h2 class="total_out_of">of 100</h2>
+    <main>
+      <div class="card">
+        <div class="card_result">
+          <h2 class="card_result__label">Your Result</h2>
+          <div class="card_result__result_circle">
+            <h1 class="total" id="total_result">76</h1>
+            <h2 class="total_out_of">of 100</h2>
+          </div>
+          <div class="card_result__message">
+            <h2 class="title">Great</h2>
+            <p class="content">
+              Your performance exceed 65% of the people conducting the test
+              here!
+            </p>
+          </div>
         </div>
-        <div class="card_result__message">
-          <h2 class="title">Great</h2>
-          <p class="content">
-            Your performance exceed 65% of the people conducting the test here!
-          </p>
+        <div class="card_summary">
+          <h2 class="card_summary__title">Summary</h2>
+          <div class="card_summary__list">
+            <!-- Dynamic Summary Items Goes here -->
+          </div>
+          <button class="card_summary__btn">Continue</button>
         </div>
       </div>
-      <div class="card_summary">
-        <h2 class="card_summary__title" role="heading">Summary</h2>
-        <div class="card_summary__list" role="listbox">
-          <!-- Dynamic Summary Items Goes here -->
-        </div>
-        <button class="card_summary__btn">Continue</button>
-      </div>
-    </div>
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.github.com/AssSam7" target="_blank">Aslam</a>.
-    </div> -->
+    </main>
 
     <script type="module" src="app.js"></script>
   </body>
